@@ -40,3 +40,14 @@ nav ul li a {
 nav ul li a:hover {
   background-color: #ebb02f
 }
+
+main {
+  background-image: linear-gradient(to top, yellow, orange);
+  background-repeat: no-repeat;       
+  background-size: cover;
+}
+
+ul{
+  text-decoration: dotted;
+  list-style-type: circle;
+}
