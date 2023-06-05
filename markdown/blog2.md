@@ -18,8 +18,5 @@ Het werk van CodeBullet heeft een grote impact op jongeren en draagt bij aan het
 
 Dus, als je geïnteresseerd bent in programmeren en op zoek bent naar een inspirerende en vermakelijke ervaring, raad ik je ten zeerste aan om CodeBullet te volgen. Laat je meeslepen door zijn creatieve projecten en geniet van de reis terwijl je je programmeervaardigheden ontwikkelt.
 
-Met vriendelijke groet,
-
-Het CodeBullet-team
     Author: Tiebe Vaes
     tiebe.vaes@leerling.piustien.net
