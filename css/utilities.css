@@ -1,45 +1,77 @@
 *{
-    font-family: "Founders Grotesk", sans-serif;
+    font-family: 'Raleway',sans-serif;
     margin: 0;
     padding: 0;
-    font-weight: 500;
+    font-weight: 400;
+    color: white;
   }
+
+h1 { 
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase; 
+}
+
+a { 
+    color: #797979;
+}
+
+a:hover { 
+    color: #1c1c1c; text-decoration: underline; 
+}
   
-  header {
+header {
+    text-align: left;
     background-color: orange;
     padding: 20px;
     color: rgb(27, 153, 231);
-    border: 0px solid ;
+    border: 0px solid;
     box-shadow:  0px 0px 6px orange;
-  }
+}
   
-  nav ul {
+nav ul {
     margin-top: 10px;
     padding: 0;
-  }
-  
-  nav ul li {
+}
+    
+nav ul li {
     margin-right: 10px;
-  }
-  
-  nav ul li a {
+}
+    
+nav ul li a {
     text-decoration: none;
     color: #333;
     padding: 5px;
-  }
-  
-  nav ul li a:hover {
+}
+    
+nav ul li a:hover {
     background-color: #ebb02f
-  }
-  
-  main {
-    background-image: linear-gradient(to top, yellow, orange);
-    background-repeat: no-repeat;       
-    background-size: cover;
-  }
-  
-  main ul{
+}
+    
+main{
+    background-color: rgb(227, 227, 53);
+}
+
+footer {
+    background-color: orange;
+    border: 0px solid;
+    box-shadow:  0px 0px 6px orange;
+}
+    
+main ul{
     list-style-type: square;
     list-style-position: inside;
     padding: 1vw;
-  }
+}
+
+main h1 {
+    text-align: center;
+    background-color: orange;
+    border: 0px solid;
+    box-shadow:  0px 0px 6px orange;
+}
+
+.item  {
+    border: 3px solid orange;
+    box-shadow:  0px 0px 6px orange;
+}

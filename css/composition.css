@@ -1,6 +1,7 @@
 header {
   position: sticky;
   top: 0;
+  z-index: 100;
 }
 
 nav {
@@ -14,7 +15,7 @@ nav ul li {
 
 .flex-container {
   display: flex; 
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 .item {
@@ -49,11 +50,14 @@ img {
   max-width: 100%;
 }
 
+
+
 @media only screen and (max-width: 800px) {
   .caption {
     position: relative;
     opacity: 1;
-    background-color: rgba(235, 223, 119, 0.621);
+    background-color: orange;
+    color: black;
   }
 }
 
