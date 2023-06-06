@@ -5,11 +5,17 @@
     font-weight: 400;
     color: white;
 }
-
+footer h2 {
+    font-size: 0.8em
+  }
 body {
     background-color: orange;
 }
-
+.about {
+    background-color: darkslategray;
+    border: orange 10px solid;
+    padding: 10px;
+  }
 
 h1, h2 { 
     font-weight: 700;
@@ -79,10 +85,29 @@ main h1 {
     box-shadow:  0px 0px 6px orange;
 }
 
-button {
-    font-size: 1.5em;
-    background-color: black;
-    border: 3px ridge black;
-    box-shadow:  0px 0px 6px black;
-}
 
+.caption {
+    opacity: 1;
+    transition: opacity 0.3s ease;
+  }
+
+  .item:hover .caption {
+    opacity: 1;
+  }
+
+  @media only screen and (min-width: 850px) {
+    .caption {
+      opacity: 0;
+      background-color: orange;
+      color: black;
+    }
+    footer h2 {
+      font-size: large;
+    }
+    .about {
+      background-color: rgba(0, 0, 0, 0.808);
+    }
+    .item {
+      background-color: rgba(0, 0, 0, 0.676);
+    }
+  }

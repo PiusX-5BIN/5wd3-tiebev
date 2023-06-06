@@ -1,0 +1,10 @@
+#profile-picture{
+    max-height: 400px;
+}
+
+button {
+    font-size: 1.5em;
+    background-color: black;
+    border: 3px ridge black;
+    box-shadow:  0px 0px 6px black;
+}

@@ -9,10 +9,6 @@ nav {
   top: 0;
 }
 
-footer h2 {
-  font-size: 0.8em
-}
-
 nav ul li {
   display: inline-block;
 }
@@ -22,12 +18,6 @@ nav ul li {
   display: flex; 
   justify-content: center;
   align-items: center;
-  padding: 10px;
-}
-
-.about {
-  background-color: darkslategray;
-  border: orange 10px solid;
   padding: 10px;
 }
 
@@ -47,9 +37,6 @@ nav ul li {
   top:0;
   bottom: 0;
   width: 100%;
-  opacity: 1;
-  transition: opacity 0.3s ease;
-  box-sizing: border-box;
 }
 
 .caption p  {
@@ -70,22 +57,12 @@ max-height: 400px;
 @media only screen and (min-width: 850px) {
   .caption {
     position: absolute;
-    opacity: 0;
-    background-color: orange;
-    color: black;
-  }
-  footer h2 {
-    font-size: large;
   }
   .about {
-    background-color: rgba(0, 0, 0, 0.808);
     width: 30%;
   }
   .flex-container {
     flex-direction: row;
-  }
-  .item {
-    background-color: rgba(0, 0, 0, 0.676);
   }
   .item img {
     width: auto;
