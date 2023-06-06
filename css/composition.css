@@ -9,30 +9,45 @@ nav {
   top: 0;
 }
 
+footer h2 {
+  font-size: 0.8em
+}
+
 nav ul li {
   display: inline-block;
 }
 
 .flex-container {
+  flex-direction: column;
   display: flex; 
-  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.about {
+  background-color: darkslategray;
+  border: orange 10px solid;
+  padding: 10px;
 }
 
 .item {
   position: relative;
   margin: 10px;
-  display: inline-block;
+  display: inline
+}
+
+.item img {
+  width: 900px;
 }
 
 .caption {
   text-align: center;
-  position: absolute;
+  position: relative;
   top:0;
   bottom: 0;
   width: 100%;
-  color: white;
-  background-color: rgba(0, 0, 0, 0.5);
-  opacity: 0;
+  opacity: 1;
   transition: opacity 0.3s ease;
   box-sizing: border-box;
 }
@@ -46,18 +61,34 @@ nav ul li {
 }
 
 img {
-  display: block; 
   max-width: 100%;
 }
+#profile-picture{
+max-height: 400px;
+}
 
-
-
-@media only screen and (max-width: 800px) {
+@media only screen and (min-width: 850px) {
   .caption {
-    position: relative;
-    opacity: 1;
+    position: absolute;
+    opacity: 0;
     background-color: orange;
     color: black;
+  }
+  footer h2 {
+    font-size: large;
+  }
+  .about {
+    background-color: rgba(0, 0, 0, 0.808);
+    width: 30%;
+  }
+  .flex-container {
+    flex-direction: row;
+  }
+  .item {
+    background-color: rgba(0, 0, 0, 0.676);
+  }
+  .item img {
+    width: auto;
   }
 }
 

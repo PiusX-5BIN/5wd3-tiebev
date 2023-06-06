@@ -1,29 +1,31 @@
 *{
-    font-family: 'Raleway',sans-serif;
+    font-family: Trebuchet MS;
     margin: 0;
     padding: 0;
     font-weight: 400;
     color: white;
-  }
+}
 
-h1 { 
+body {
+    background-color: orange;
+}
+
+
+h1, h2 { 
     font-weight: 700;
-    color: #ffffff;
+    color: rgb(85, 172, 201);
     text-transform: uppercase; 
+    text-shadow: #1c1c1c 1px 2px 2px;
 }
 
-a { 
-    color: #797979;
-}
-
-a:hover { 
-    color: #1c1c1c; text-decoration: underline; 
+p{
+    font-family: Trebuchet MS;
 }
   
 header {
     text-align: left;
     background-color: orange;
-    padding: 20px;
+    padding: 15px;
     color: rgb(27, 153, 231);
     border: 0px solid;
     box-shadow:  0px 0px 6px orange;
@@ -34,14 +36,12 @@ nav ul {
     padding: 0;
 }
     
-nav ul li {
-    margin-right: 10px;
-}
-    
 nav ul li a {
     text-decoration: none;
     color: #333;
+    background-color:rgb(85, 172, 201);;
     padding: 5px;
+    padding-left: 1px;
 }
     
 nav ul li a:hover {
@@ -50,12 +50,14 @@ nav ul li a:hover {
     
 main{
     background-color: rgb(227, 227, 53);
+    padding-top: 20px;
 }
 
 footer {
     background-color: orange;
     border: 0px solid;
     box-shadow:  0px 0px 6px orange;
+    padding: 10px;
 }
     
 main ul{
@@ -72,6 +74,15 @@ main h1 {
 }
 
 .item  {
+    background-color: orange;
     border: 3px solid orange;
     box-shadow:  0px 0px 6px orange;
 }
+
+button {
+    font-size: 1.5em;
+    background-color: black;
+    border: 3px ridge black;
+    box-shadow:  0px 0px 6px black;
+}
+
